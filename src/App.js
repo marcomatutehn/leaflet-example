@@ -1,11 +1,6 @@
-import React, {useEffect, useState} from 'react';
+import React, {useState} from 'react';
 import './App.css';
-//import { render } from 'react-dom';
-import L from 'leaflet';
-import {Map, Marker, Popup, TileLayer} from "react-leaflet";
-import {Icon} from "leaflet";
-
-import * as parkData from '../src/data/parkData';
+import {Map, TileLayer} from "react-leaflet";
 
 function App() {
 
